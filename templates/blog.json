@@ -107,9 +107,346 @@
         "padding-block-start": 0,
         "padding-block-end": 48
       }
+    },
+    "section_FAQ": {
+      "type": "section",
+      "blocks": {
+        "group_FAQ": {
+          "type": "group",
+          "name": "FAQ Group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 15,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_Heading": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h2>You've Got Questions, We've Got Answers</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h2",
+                "font": "var(--font-heading--family)",
+                "font_size": "2.5rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "text_Subheading": {
+              "type": "text",
+              "name": "Subheading",
+              "settings": {
+                "text": "<p>We're here to make your experience seamless. Explore answers to common topics below, and feel free to reach out if you need further assistance.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
+            },
+            "accordion_FAQ": {
+              "type": "accordion",
+              "name": "FAQ Accordion",
+              "settings": {
+                "icon": "plus",
+                "dividers": true,
+                "type_preset": "h5",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 30,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_row_1": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What is SugarMD?"
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>SugarMD is a holistic brand offering science-backed natural supplements, created by Dr. Ahmet Ergin to redefine health and help manage blood sugar effectively.</p>",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      }
+                    }
+                  },
+                  "block_order": ["text"]
+                },
+                "accordion_row_2": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Are the supplements at SugarMD natural?"
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Yes, all our supplements are formulated using natural ingredients, guided by nature and perfected by science.</p>",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      }
+                    }
+                  },
+                  "block_order": ["text"]
+                },
+                "accordion_row_3": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Who formulated the products?"
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Our products are formulated by Dr. Ahmet Ergin, a leading endocrinologist and diabetes specialist.</p>",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      }
+                    }
+                  },
+                  "block_order": ["text"]
+                },
+                "accordion_row_4": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Do you offer free shipping?"
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Yes, we offer free shipping on eligible orders. Please check our shipping policy page for full details and conditions.</p>",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      }
+                    }
+                  },
+                  "block_order": ["text"]
+                },
+                "accordion_row_5": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "What is your return policy?"
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>We aim for complete customer satisfaction. If you are not satisfied, please review our return policy page to see if your order is eligible for a return or exchange.</p>",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      }
+                    }
+                  },
+                  "block_order": ["text"]
+                },
+                "accordion_row_6": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "How can I contact SugarMD for support?"
+                  },
+                  "blocks": {
+                    "text": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>You can reach our support team through the Contact Us page, or by emailing us directly at our support email address.</p>",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      }
+                    }
+                  },
+                  "block_order": ["text"]
+                }
+              },
+              "block_order": [
+                "accordion_row_1",
+                "accordion_row_2",
+                "accordion_row_3",
+                "accordion_row_4",
+                "accordion_row_5",
+                "accordion_row_6"
+              ]
+            }
+          },
+          "block_order": [
+            "text_Heading",
+            "text_Subheading",
+            "accordion_FAQ"
+          ]
+        }
+      },
+      "block_order": [
+        "group_FAQ"
+      ],
+      "name": "FAQ Section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-3",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_FAQ"
   ]
 }
